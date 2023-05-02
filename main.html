@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spb-mipk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+
+    
+  </head>
+
+  <body>
+    <div class="main">
+
+    <!-- header + nav -->      
+
+      <div class="header" id="myHeader">
+
+        <h3 class="header__spb">Санкт-Петербург</h3>
+
+        <div class="header__logo"><a href="#"><img src="img/logo.png" width="181px" height="62px"></a></div>
+
+        <div class="header__social-media">
+          <a href="#"><img src="img/vk.png" width="35px" height="35px"></a>
+          <a href="#"><img src="img/whatsapp.png" width="35px" height="35px"></a>
+          <a href="#"><img src="img/telegram.png" width="35px" height="35px"></a>
+        </div>
+
+        <div class="header__search">
+          <form action="/search">
+            <div class="search-box">
+              <input type="text" placeholder="НАЙТИ" name="search" style=" width: 562px; height: 40px; padding-left: 15px">
+              <button type="submit" class="btn-search">ПОИСК<i class="fa fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+
+        <div class="header__right">
+          <div class="header__right-days">ПН-ВС 09:00 - 18:00 (МСК)</div>
+          <div class="header__right-telephone" style="font-size: 
+          22px"><b>8 (800) 000-00-00</b></div>
+          <div class="header__right-email">info@spmipk.com</div>
+        </div>
+        
+        <div class="line"><img src="img/Rectangle 103.png"></div>
+    
+        <ul class="navbar">
+          <li><a href="#">НАПРАВЛЕНИЯ</a></li>
+          <li><a href="#">ОБУЧЕНИЕ</a></li>
+          <li><a href="#">ПАРТНЕРАМ</a></li>
+          <li><a href="#">ОБ ИНСТИТУТЕ</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </ul> 
+
+
+      </div> <!--header closing tag-->
+
+      
+        <p class="text__one">Главная</p>
+        <div class="center-text" style="text-align: center; margin-top: 100px;"><b>Институт профессиональной переподготовкии повышения<br>квалификации</b></div>
+        
+       
+
+    <!-- banner section -->
+      <div class="arrows">
+        <a class="previous" onclick="previousSlide()"><img src="img/Left.png"></a>
+        <a class="next" onclick="previousSlide()"><img src="img/Right.png"></a>
+      </div>
+        
+      <button class="btn-0">Подробнее</button>  
+
+      <div class="slideshow-container">
+        <div class="mySlides fade"><img src="img/banner.png" style= "width:1338px; height:400px"></div>
+        <div class="mySlides fade"><img src="img/banner-2.jpg" style= "width:1338px; height:400px; object-fit: cover;"></div>
+        <div class="mySlides fade"><img src="img/banner-3.jpg" style= "width:1338px; height:400px; object-fit: cover;"></div>       
+        <div class="mySlides fade"><img src="img/banner-4.jpg" style= "width:1338px; height:400px; object-fit: cover;"></div>    
+      </div> 
+
+      <div class="tochki" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+
+      <h2 class="center-text" style="text-align: center; font-size: 24px; margin-top: 100px;"><b>За 2022 год наши клиенты получили более</b></h2>
+      
+      <div class="figures">
+        <ul class="figures__num">
+          <li style="width: 117px; height: 113px;" >
+              <p style="font-size: 36px;color: #FF0000;">7258</p>
+              <p style="font-size: 16px;">Удостоверений повышения квалификации</p>
+          </li>
+
+          <li style="width: 200px; height: 88px;">
+              <p style="font-size: 36px;color: #FF0000;">3887</p>
+              <p style="font-size: 16px;">Дипломов профессиональной переподготовки</p>
+          </li>
+
+          <li style="width: 117px; height: 113px;">
+              <p style="font-size: 36px;color: #FF0000;">1893</p>
+              <p style="font-size: 16px;">Удостоверений по охране труда и пож-техминимума</p>
+          </li>
+
+          <li style="width: 162px; height: 109px;">
+              <p style="font-size: 36px;color: #FF0000;">6458</p>
+              <p style="font-size: 16px;">других удостоверений</p>
+          </li>
+        </ul>    
+      </div> <!-- closing 'numbers' tag -->
+
+      <div style="text-align: center; ">
+        <h2 style="font-size: 24px; margin-top: 100px; margin-bottom: 30px;"><b>
+          О нас
+        </b></h2>
+      </div>
+
+      <img class="about-img" src="/img/us.png" style= "font-family:'Inter'; width:1331px; height:562px;">
+
+      <h4 class="about-text" style= "font-family:'Inter'; font-size: 16px; font-weight: 400;">
+        <p>АНО ДПО СПБ МИПК начал свой путь в г. Санкт-Петербурге еще в 2013 году. С 2013 года нашими клиентами стали около 29 000 физических и более 56 000 юридических лиц на территории России, а партнерский реестр насчитывает свыше 5000 компаний. На сегодняшний день наши филиалы представлены в следующих городах: Иркутск, Краснодар, Симферополь, Севастополь, Владивосток, Москва.</p>
+        
+        <p>Основными направлениями программ нашего института являются: строительство, медицина, педагогика, кадровая и бухгалтерская сферы, индустрия красоты, психология, сельское хозяйство, компьютерные технологии и многое другое.</p>
+        
+        <p>В институте работает большой штат методистов, преподавателей, делопроизводителей и менеджеров по работе с клиентами, которые справятся с любым объемом работы.Работая над качеством услуг, нами были определены основные приоритеты при работе с клиентами: высокая скорость выполнения заказов, качественное предоставление услуг и гибкая ценовая политика.</p>
+      </h4>
+
+
+      <div class="footer">
+
+        <div class="column">
+          <div class="footer__map"><img src="img/map.png" style= "width:682px; height:453px"></div>
+        </div>
+
+        <div class="column">
+
+          <div class="column-2">
+            <button class="btn-1">Заказать звонок</button>
+            <div class="telephone"><img class="telephone-icon" src="img/telephone.png" style= "width:27px; height:29px"><p>8 (800) 000-00-00</p></div>
+            <div class="mail"><img class="mail-icon" src="img/mail.png" style= "width:27px; height:29px">
+            <p>info@spmipk.com</p></div>
+            <a href="#">Карта сайта</a>
+            <a href="#">Пользовательское соглашение</a>
+          </div>
+
+          <div class="column-3">
+            <p>Автономная некоммерческая организация дополнительного профессионального образования «Санкт-Петербургский межотраслевой институт повышения квалификации»</p>
+            <p>ОГРН 1127800000591</p>
+            <p>ИНН 7841290477</p>
+            <p>КПП 784101001</p>
+            <button class="btn-2">Стать партнером</button>
+          </div>    
+
+        </div><!-- closing 'column' tag -->
+
+        <div class="footer-end-text">
+          <p>Информация на сайте не является публичной офертой</p>
+          <p>© 2012 АНОДПО "Спбмипк"</p>
+        </div>
+
+      </div><!-- closing 'footer' tag -->
+
+     
+    </div>   <!-- closing 'main' tag -->
+    <script src="main.js" ></script>
+  </body>
+</html>
